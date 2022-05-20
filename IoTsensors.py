@@ -198,8 +198,8 @@ def showTemperatureVariation(tempArray, targetTemp, targetTime):
     ax.yaxis.set_minor_locator(MultipleLocator(5))
     plt.show()
     
-#imageName = r'C:\LOCAL\AcadAB\WWSEF\18401_87a_Avenue_NW-24.bmp'
-imageName = r'C:\LOCAL\AcadAB\WWSEF\8804_189_Street_NW-24.bmp'
+imageName = r'Documents\18401_87a_Avenue_NW-24.bmp'
+
 # Display initial heat-map
 bmpo = PILImage.open(imageName)
 #plt.figure()
